@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+
+
+  <!------------CSS-------------->
+  <link rel="stylesheet" href="css/bootstrapmin.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  <!------------JS-------------->
+  <script src="js/jquerymin.js"></script>
+  <script src="js/poppermin.js"></script>
+  <script src="js/bootstrapmin.js"></script>
+  <script src="js/custom.js"></script>
+
+
+  <!------------font-------------->
+  <link rel="stylesheet" href="font/fontawesomemin.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+<script type="text/javascript">
+  $(document).ready(function(){
+  $("#heart").click(function(){
+    if($("#heart").hasClass("liked")){
+      $("#heart").html('<i class="far fa-heart fa-2x"></i></i>');
+      $("#heart").removeClass("liked");
+    }else{
+      $("#heart").html('<i class="fa fa-heart fa-2x" aria-hidden="true"></i>');
+      $("#heart").addClass("liked");
+    }
+  });
+});
+</script>
+</head>
+
+
+<body>
+  <!-- <div id="loading">
+  <img id="loading-image" src="images/home page/aaa.jpg" alt="Loading..." width="100px" />
+   
+</div>    -->
+
+  <div id="banner1">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="#"><img src="images/home page/66.png" style="width:150px; height:120px">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active px-3">
+            <a class=" nav-link w3-bar-item w3-button w3-hover-none w3-border-white  w3-hover-border-orange w3-hover-text-orange" href="home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active px-3">
+            <a class=" nav-link w3-bar-item w3-button w3-hover-none w3-border-white  w3-hover-border-orange w3-hover-text-orange" href="category.html">Category<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active px-3">
+            <a class=" nav-link w3-bar-item w3-button w3-hover-none w3-border-white  w3-hover-border-orange w3-hover-text-orange" href="job_post.html">Job <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active px-3">
+            <a class=" nav-link w3-bar-item w3-button w3-hover-none w3-border-white w3-hover-border-orange w3-hover-text-orange" href="contact.html">Contactt<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active px-3">
+            <a class=" nav-link w3-bar-item w3-button w3-hover-none w3-border-white w3-hover-border-orange w3-hover-text-orange" href="login.html" >SignIn/SignUp <span class="sr-only">(current)</span></a>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid" id="detail3">
+    <div class="row">
+      <div class="col-lg-2">
+        <img src="images/home page/44.png"  class="image" width="150px;" height="150px">
+      </div>
+      <div class="col-lg-6" id="detail">
+        <h3>Intermship Programme</h3>
+        <p>ESC Myanmar</p>
+        <div class="row">
+          <div class="col-lg-3">
+            <i class="far fa-clock " style="color: pink"></i>July8, 2020
+          </div>
+          <div class="col-lg-5">
+            <i class="fas fa-map-marker-alt" style="color: blue"></i>South Okkalapa, Yangon
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-hand-holding-usd" style="color: green"></i>Salary|$200-$300
+          </div>
+        </div>
+        </div>
+
+         <div class="col-lg-1" id="detail1">
+        <span id = heart><i class="far fa-heart fa-2x"></i> </span>
+      </div>
+      <div class="col-lg-3" id="detail2">
+            <button type="submit" id="btn4">Apply Now</button>
+            </div>
+      
+      
+    </div>
+  </div>
+  <div class="container-fluid">
+  <hr class="" id="divider3">
+  </div>
+
+  <div class="container-fluid" id="c4">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="card" style="width: 100%;" id="card1">
+               <div class="card-body">
+                <div class="container">
+                  <h4 class="card-title">Job Description</h4>
+                  
+                     <h5 style="color: grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                     </h5>
+<br>
+                     <h4> Job Requirement</h4>
+                     <ul>
+                       <li id="requirement"><h5>Education</h5></li>
+                       <li id="requirement"><h5>Age</h5></li>
+                       <li id="requirement"><h5>Experience</h5></li>
+                       <li id="requirement"><h5>Gender</h5></li>
+                       <li id="requirement"><h5>Language</h5></li>
+                     </ul>
+                     <h4>Skills</h4>
+                     <div class="row">
+                      <div class="col-md-3">
+                        <div class="skillwrap">
+                            <div class="skill">
+                             <span>Photoshop</span>
+                            </div>  
+                        </div>
+                      </div>
+                    <div class="col-md-3">
+                        <div class="skillwrap">
+                            <div class="skill">
+                             <span>Photoshop</span>
+                            </div>  
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="skillwrap">
+                            <div class="skill">
+                             <span>Photoshop</span>
+                            </div>  
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="skillwrap">
+                            <div class="skill">
+                             <span>Photoshop</span>
+                            </div>  
+                        </div>
+                      </div>            
+                   </div>
+
+                   <h4 class="c1">Contact</h4>
+                   <div class="row">
+                   <div class="col-lg-3">
+                      <i class="fas fa-phone fa-2x" style="color: #f9b940"></i><span class="c2">097383271</span>
+                      </div>
+                    <div class="col-lg-5">
+                      <i class="fas fa-envelope fa-2x" style="color: #f9b940"></i><span class="c2">myantel@gmail.com</span>
+                    </div>
+                    
+                </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+ <div class="col-lg-4 col-md-6 col-sm-12 my-3">
+  <h4>Related Job</h4>
+ <div class="card  text-center " id="card1"style="width: 24rem; height: 20rem">
+  <div class="card-body">
+   
+    <h5 class="card-title" id="imgpadding"><img src="images/home page/44.png" width="60px"></h5>
+    <hr class="" id="divider">
+    <h5>ESC Myanmar</h5>
+    <h6>Internship</h6>
+    <br>
+    <a href="#" class="btn btn-warning my-4" id="cool"><h4>View More</h4></a>
+  </div>
+</div>
+<br>
+ <div class="card  text-center " id="card1"style="width: 24rem; height: 20rem">
+  <div class="card-body">
+   
+    <h5 class="card-title" id="imgpadding"><img src="images/home page/22.png" width="60px"></h5>
+    <hr class="" id="divider">
+    <h5>ESC Myanmar</h5>
+    <h6>Internship</h6>
+    <br>
+    <a href="#" class="btn btn-warning my-4" id="cool"><h4>View More</h4></a>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+            <footer>
+  
+  <div class="footer">
+    <div class="container">
+    <div class="row" align="center">
+      <div class="col-lg-2 col-md-2 col-sm-2" id="foot" >
+        <a href="" id="foot1">About us</a>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3" id="foot">
+        <a href="" id="foot1">How Its Work</a>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3" id="foot">
+        <a href="" id="foot1">Term And Policy</a>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2" id="foot">
+        <a href="" id="foot1">Support</a>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2" id="foot">
+        <a href="" id="foot1">Contact Us</a>
+      </div>
+    </div>
+    
+      <div>
+        <h5 align="center" id="foot2">No.189-B, Marga 10 street, 12th Qr, South Ooakalapa Township</h5>
+        <h5 align="center">Yangon, Myanmar</h5>
+
+        <h5 align="center" id="foot2">09457500018</h5>
+
+        <h5 align="center" id="foot2">info@escmyanmar.com</h5>
+      </div>
+    
+    </div>
+  </div>
+  <div class="footer2">
+    <div class="container">
+      <div class="row" >
+        <div class="col-lg-10 col-md-10 col-sm-10">
+        <h5 id="foot3">@2020ESCMyanmar All Rights Reserved</h5>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2">
+        <i id="foot4" class="fab fa-facebook-square fa-2x "></i>
+        <i id="foot4" class="fab fa-instagram fa-2x"></i>
+        <i id="foot4" class="fab fa-invision fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>
